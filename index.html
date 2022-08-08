@@ -1,0 +1,38 @@
+<html>
+<head>
+<title> FACE RECOGNITION WEB APP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 style="color:white">Face RECOGNITION WEB App</h1>
+
+<h4 style="color: white;">Model is trained to identify the following objects</h4>
+<center>
+<div style="background-color: rgb(15, 126, 160); height: 25px;">
+    <p>Father</p>
+</div>
+
+<div style="background-color: rgb(15, 126, 160); height: 25px;">
+    <p>Mother</p>
+</div>
+
+<div style="background-color: rgb(15, 126, 160); height: 25px;">
+    <p>Sister</p>
+</div>
+
+<div style="background-color: rgb(15, 126, 160); height: 25px;">
+    <p>Brother</p>
+</div>
+
+<div id="result"></div>
+<br><br>
+<button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+<br><br>
+<button onclick="check();" class="btn btn-sucess">identify Image</button>
+<br><br>
+
+<p style="font-size: 22px;">Object :  </p>
+<p style="font-size: 22px;">Accuracy :  </p>
+</center>
+</body>
+</html>
